@@ -14,7 +14,7 @@ Kotlin 的类型系统旨在消除来自代码空引用的危险，也称为[《
 许多编程语言（包括 Java）中最常见的陷阱之一是访问空引用的成员，导致空引用异常。在 Java 中，
 这等同于 `NullPointerException` 或简称 `NPE`。
 
-Kotlin 的类型系统旨在从我们的代码中消除 `NullPointerException`。NPE 的唯一可能的原因可能是
+Kotlin 的类型系统旨在从我们的代码中消除 `NullPointerException`。在Kotlin中，出现NPE 的唯一可能的原因可能是
 
 * 显式调用 `throw NullPointerException()`；
 * 使用了下文描述的 `!!` 操作符；
